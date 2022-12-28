@@ -13,10 +13,10 @@ Analyze Baby Name Trends (analyze_baby_name_trends):
 Pet Shelter Analysis
 
     Uses Python: pandas, matplotlib to answer the following:
-    •	Is there an area where more pets are found? Find the top 5 places where animals are found so the shelter can coordinate with local volunteers and animal control to monitor these areas.
-    •	What is the average number of pets found in a month in the year 2015? Are there months where there is a higher number of animals found? Knowing the number of pets the shelter might see in a month can help them gather enough resources and donations to care for the animals they receive.
-    •	What is the ratio of incoming pets vs. adopted pets? This key metric helps the shelter know how they are doing.
-    •	What is the distribution of the types of animals in the shelter? Find the count of each type of animal in the shelter.
+    •	Is there an area where more pets are found (top 5 places)? To help the shelter to coordinate with local volunteers/ animal control in these areas.
+    •	What is the average number of pets found in a month in the year 2015? This helps them gather enough resources and donations to care for the animals they receive.
+    •	What is the ratio of incoming pets vs. adopted pets? 
+    •	What is the distribution of the types of animals in the shelter? 
     •	What are the adoption rates for specific breeds? Find the top 5 dog breeds in the shelter (based on count) and then find the adoption percentage of each breed.
     •	What are the adoption rates for different colorings? Find the top 5 colorings in the shelter (based on count) and then find the adoption percentage of each color.
     •	About how many animals are spayed/neutered each month?
