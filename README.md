@@ -23,6 +23,12 @@ Video Game Sales Visualization (graph_video_game_sales):
 
     Using Python: pandas, matplotlib, seaborn
     Visualize trends in sales across continents, years, and categories to answer questions about data. 
+    •	Regional Sales by Publisher and Region as a stacked column graph 
+    •	Global Sales by Year as a line graph
+    •	Global Sales Distribution for Action Games as a histogram 
+    •	North American Sales by Genre as a pie chart 
+    •	European Sales by Genre as a pie chart 
+    •	Count of Games by Platform
 
 
 
