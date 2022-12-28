@@ -2,11 +2,13 @@
 
 NLP:
 
-    Uses Natural Language Processing on Neural Information Processing Papers (over 50,000 files) to evaluate the trendiest topics in Machine Learning research. 
+    Uses Natural Language Processing on Neural Information Processing Papers 
+    (over 50,000 files) to evaluate the trendiest topics in Machine Learning research. 
 
 Analyze Baby Name Trends (analyze_baby_name_trends):
 
-    Uses SQL statements within Jupyter notebook to analyze trends in baby names over time. 
+    Uses SQL statements within Jupyter notebook 
+    to analyze trends in baby names over time. 
 
 Pet Shelter Analysis
 
