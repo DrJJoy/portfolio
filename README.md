@@ -1,2 +1,29 @@
-# Jennifer Joy Portfolio 
+# Dr. Joy's Portfolio 
+
+NLP:
+
+    Uses Natural Language Processing on Neural Information Processing Papers (over 50,000 files) to evaluate the trendiest topics in Machine Learning research. 
+
+Analyze Baby Name Trends (analyze_baby_name_trends):
+
+    Uses SQL statements within Jupyter notebook to analyze trends in baby names over time. 
+
+Pet Shelter Analysis
+
+    Uses Python: pandas, matplotlib to answer the following:
+    •	Is there an area where more pets are found? Find the top 5 places where animals are found so the shelter can coordinate with local volunteers and animal control to monitor these areas.
+    •	What is the average number of pets found in a month in the year 2015? Are there months where there is a higher number of animals found? Knowing the number of pets the shelter might see in a month can help them gather enough resources and donations to care for the animals they receive.
+    •	What is the ratio of incoming pets vs. adopted pets? This key metric helps the shelter know how they are doing.
+    •	What is the distribution of the types of animals in the shelter? Find the count of each type of animal in the shelter.
+    •	What are the adoption rates for specific breeds? Find the top 5 dog breeds in the shelter (based on count) and then find the adoption percentage of each breed.
+    •	What are the adoption rates for different colorings? Find the top 5 colorings in the shelter (based on count) and then find the adoption percentage of each color.
+    •	About how many animals are spayed/neutered each month?
+
+Video Game Sales Visualization (graph_video_game_sales):
+
+    Using Python: pandas, matplotlib, seaborn
+    Visualize trends in sales across continents, years, and categories to answer questions about data. 
+
+
+
 This is a work in progress indexing the content of each project.
