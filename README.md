@@ -10,7 +10,15 @@ Analyze Baby Name Trends (analyze_baby_name_trends):
     Uses SQL statements within Jupyter notebook 
     to analyze trends in baby names over time. 
 
-Pet Shelter Analysis
+Classify YouTube Comments:
+
+    Multinomial Naïve Bayes Classifier - the YouTube Dataset
+    This is a project using Naive Bayes to classify comments from YouTube as spam or not spam (ham)
+
+    Jupyter Notebook/Python: pandas, seaborn, numpy, matplotlib, glob
+    Sklearn: CountVectorizer, train_test_split (sklearn.model_selection), MultinomialNB (sklearn.naive_bayes), and ConfusionMatrixDisplay, classification_report (sklearn.metrics)
+
+Pet Shelter Analysis:
 
     Uses Python: pandas, matplotlib to answer the following:
     •	Is there an area where more pets are found (top 5 places)? To help the shelter to coordinate with local volunteers/ animal control in these areas.
