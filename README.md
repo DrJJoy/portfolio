@@ -14,9 +14,14 @@ Classify YouTube Comments:
 
     Multinomial Naïve Bayes Classifier - the YouTube Dataset
     This is a project using Naive Bayes to classify comments from YouTube as spam or not spam (ham)
-
     Jupyter Notebook/Python: pandas, seaborn, numpy, matplotlib, glob
     Sklearn: CountVectorizer, train_test_split (sklearn.model_selection), MultinomialNB (sklearn.naive_bayes), and ConfusionMatrixDisplay, classification_report (sklearn.metrics)
+
+Importance of Handwashing:
+
+    Evaluation of reduction in proportion of deaths after discovery of handwashing.
+    Using Pandas, Matplotlib. 
+    Datetime, comparison of clinics, bootstrap analysis, confidence intervals
 
 Pet Shelter Analysis:
 
