@@ -1,4 +1,8 @@
 # Dr. Joy's Portfolio 
+Forecasting Blood Donation Supply:
+
+	Forecasting supply of blood by predicting likelihood of donations using pandas and scikit-learn
+    Test-train split, model selection and optimization, logistic regression and assessment of fit, normalization
 
 NLP:
 
