@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="HLE Predictor", layout="wide")
 st.title("Healthy Life Expectancy Predictor")
@@ -9,6 +9,7 @@ st.markdown("**20+ Years Building Predictive Models | Python Pipeline**")
 
 df = pd.read_csv("WHR_2025_df2.csv")
 
+# Key Metrics
 col1, col2, col3 = st.columns(3)
 with col1:
     st.metric("R²", "0.358")
@@ -17,20 +18,19 @@ with col2:
 with col3:
     st.metric("p-value", "< 0.001")
 
+# Interactive Scatter
 st.markdown("### Interactive: Social Support vs. HLE")
 country = st.selectbox("Filter by Country", ["All"] + sorted(df["Country name"].unique()))
 df_plot = df if country == "All" else df[df["Country name"] == country]
 
-fig = px.scatter(
-    df_plot,
-    x="Explained by: Social support",
-    y="Explained by: Healthy life expectancy",
-    hover_data=["Country name"],
-    trendline="ols",
-    title="Social Support Drives Healthy Life Expectancy"
-)
-st.plotly_chart(fig, use_container_width=True)
+fig, ax = plt.subplots()
+ax.scatter(df_plot["Explained by: Social support"], df_plot["Explained by: Healthy life expectancy"])
+ax.set_xlabel("Social Support")
+ax.set_ylabel("Healthy Life Expectancy")
+ax.set_title("Social Support Drives Healthy Life Expectancy")
+st.pyplot(fig)
 
+# Download Notebook
 st.download_button(
     "Download Full Analysis",
     data=open("model.ipynb", "rb").read(),
