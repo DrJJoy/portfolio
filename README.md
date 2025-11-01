@@ -16,7 +16,7 @@
 `pandas` → clean | `scikit-learn` → model | `statsmodels` → inference | `Streamlit` → dashboard
 
 ### Deliverables
-- [Live Dashboard](YOUR_STREAMLIT_LINK_HERE) ← **Interactive insights**
+- [Live Dashboard](https://portfolio-drjjoy.streamlit.app/)) ← **Interactive insights**
 - [Full Analysis (Notebook)](model.ipynb) ← **Downloadable with all plots & diagnostics**
 - [Data](WHR_2025_df2.csv) ← **Cleaned dataset**
 
