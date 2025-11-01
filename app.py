@@ -7,9 +7,6 @@ st.title("Healthy Life Expectancy Predictor")
 st.markdown("**PhD | Doctoral Minor in Applied Statistics**")
 st.markdown("**20+ Years Building Predictive Models | Python Pipeline**")
 
-# --- Load Data ---
-df = pd.read_csv("WHR_2025_df2.csv")
-
 # --- Key Metrics ---
 col1, col2, col3 = st.columns(3)
 with col1:
@@ -23,9 +20,17 @@ with col3:
 st.markdown("### Key Finding")
 st.markdown("**+1 unit of Social Support = +0.37 years of Healthy Life Expectancy** (p < 0.001)")
 
-# --- Data Preview ---
+# --- Data Preview (Hard-Coded from Your Screenshot) ---
 st.markdown("### Data Preview (Top 5 Countries)")
-st.dataframe(df.head())
+data = {
+    "Country name": ["Finland", "Denmark", "Iceland", "Sweden", "Netherlands"],
+    "Ladder score": [7.736, 7.521, 7.515, 7.345, 7.306],
+    "Explained by: Social support": [1.793, 1.748, 1.840, 1.666, 1.667],
+    "Explained by: Healthy life expectancy": [0.824, 0.820, 0.873, 0.899, 0.844],
+    "Explained by: Generosity": [0.110, 0.150, 0.201, 0.170, 0.186]
+}
+df_preview = pd.DataFrame(data)
+st.dataframe(df_preview)
 
 # --- Full Model Summary ---
 st.markdown("### Full Model Results")
@@ -48,5 +53,5 @@ st.download_button(
 st.markdown("### Next Steps")
 st.markdown("""
 - Add GDP, Freedom, Corruption for full model  
-- Deploy with interactive scatter (Plotly) in local version  
+- Deploy with interactive scatter in local version  
 """)
