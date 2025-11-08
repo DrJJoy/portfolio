@@ -23,5 +23,3 @@
 ---
 
 *20+ years delivering regression, SEM, PCA, CFA, ANOVA, t-tests — now shipped in production-grade Python.*
-
-*More projects coming: Legal Risk Modeling | Preschool SEM | Behavioral Analytics*
